@@ -1,10 +1,10 @@
-import React from "core-js/library/fn/reflect/es7/metadata";
+import React from "react";
 
 const CartContext = React.createContext({
   items: [],
-  totalAmount: 0
+  totalAmount: 0,
   addItem: (item) => {},
-  removeItem: (id) => {}
+  removeItem: (id) => {},
 });
 
-export default CartContext
+export default CartContext;
